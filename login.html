@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html"><h1>SS11 StreetWear</h1></a>
+      </div>
+
+      <!-- Menu -->
+      <div class="menu">
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#">Bottoms</a></li>
+          <li><a href="shoes.html">Shoes</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Navbar -->
+      <div class="right">
+        <!-- Search -->
+        <div class="search">
+          <input type="search" placeholder="Serch Here..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Cart -->
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping" name="cart"></i>
+        </div>
+
+        <!-- Login Register -->
+        <div class="log">
+          <input id="log2" type="button" value="Register" name="login" onclick="window.location.href='register.html';">
+      </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======================================= -->
+
+    <div class="form-containter">
+      <h1>Login Now</h1>
+      <hr />
+
+      <form action="" method="POST">
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter Username"
+          id="log"
+        />
+
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+          id="log"
+        />
+
+        <input id="submit" type="submit" name="btn" value="Login" />
+
+        <p>Don't have an account?<a href="Register.html"> Register Now</a></p>
+      </form>
+    </div>
+
+    <!-- ========================================= -->
+
+    <footer class="footer">
+      <div class="box1">
+        <h2>SS11 Streetwear App</h2>
+        <p><i class="fa-solid fa-mobile"></i>IOS APP</p>
+        <p><i class="fa-solid fa-mobile"></i>Android App</p>
+      </div>
+      <div class="box2">
+        <h2>Follow US</h2>
+        <p>Facebook</p>
+        <p>Ingtagram</p>
+        <p>TikTok</p>
+      </div>
+      <div class="box3">
+        <h2>Customer Service</h2>
+        <p>Online Exchange Policy</p>
+        <p>Private Policy</p>
+      </div>
+      <div class="box4">
+        <h2>We Accept</h2>
+        <i class="fa-solid fa-credit-card"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <p><i class="fa-solid fa-truck"></i>Cash On Delivery</p>
+      </div>
+    </footer>
+
+    <script src="scrip.js"></script>
+  </body>
+</html>
