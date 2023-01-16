@@ -179,6 +179,8 @@ img {
   background-color: red;
   cursor: pointer;
   font-size: 20px;
+  z-index: 1;
+  left: 0;
 }
 .grid-container .box input:hover {
   background-color: rgb(203, 90, 90);
