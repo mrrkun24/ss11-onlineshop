@@ -373,6 +373,8 @@ img {
   .navbar .menu ul li {
     font-size: 10px;
     padding: 2px;
+    display: flex;
+    flex-direction: column;
   }
   .navbar .right .search,
   .cart {
