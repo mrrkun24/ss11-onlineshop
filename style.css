@@ -167,8 +167,6 @@ img {
   display: flex;
   flex-direction: column;
   /* background-color: red; */
-  text-transform: bold;
-  transform: translateY(-68%);
   animation: scrolling 10s infinite;
 }
 .header .right-text .text_scroll .member-box :first-child {
@@ -450,9 +448,10 @@ img {
   h1 {
     font-size: 1.2rem;
   }
-  .header .right-text p {
-    line-height: 28px;
-    font-size: 1rem;
+
+  .header .right-text hr {
+    width: 50%;
+    float: right;
   }
   .navbar .menu ul li {
     font-size: 10px;
@@ -513,5 +512,11 @@ img {
 
   .detail-pro .right-pro {
     width: 100%;
+  }
+  .header .right-text .text_scroll {
+    width: 100%;
+    border-bottom: 2px solid red;
+    height: 22px;
+    font-size: 14px;
   }
 }
